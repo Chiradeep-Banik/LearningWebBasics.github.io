@@ -1,0 +1,45 @@
+body {
+    background-color :darkslategray;
+}
+div{
+    font-size: 30px;
+}
+h1 {
+    color : blue;
+    background-color: teal;        
+    text-shadow: 2px 2px  red;
+    width: 400px;
+    font-size: 75px;
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    color: tan;
+    text-shadow: 5px 3px darkred;
+}
+p{
+    font-size: 25;
+    color: green;
+    text-decoration: underline;
+}
+#yello_div {
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+}
+#pink_div {
+    height: 250px;
+    width: 400px;
+    background-color: pink;
+}
+#dark_pink{
+    background-color: darkmagenta;
+    height: 120px;
+    width: 350px;
+}
+#gray{
+    background-color: gray;
+    height: 300px;
+    width: 100px;
+}
