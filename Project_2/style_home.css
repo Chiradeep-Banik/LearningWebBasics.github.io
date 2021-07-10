@@ -33,7 +33,7 @@ nav{
     justify-content: space-around;
 }
 
-#online_book,#about,#contact{
+#online_book,#about,#contact,#home{
     border-style: solid;
     border-width: 2px;
     padding: 5px ;

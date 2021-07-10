@@ -49,64 +49,7 @@ nav div a{
 #logo{
     flex: 1;
 }
-#contact_form{
-    min-height:500px;
-    margin-bottom: 30px;
-}
-#contact_form h1{
-    padding-top: 0px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    font-size:40px;
-}
-#contact_form p {
-    padding : 0px 0px 10px 0px;
-    margin-top: 0px;
-    font-size: 18px;
-}
-.input{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.input input{
-    flex:1;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
-}
-.input textarea{
-    flex:1;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 5px;
-}
-#newsletter {
-    padding: 10px 0px 10px 0px;
-}
-.radioboxs{
-    display: flex;
-}
-.radioboxs label{
-    padding : 0px 15px 10px 15px;
-}
-.country select{
-    padding: 7px;
-    border-radius: 5px;
-    margin: 8px 0px 10px 0px;
-}
-#submit input{
-    padding: 15px 30px 15px 30px;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.212);
-    border-radius: 10px;
-}
-#submit input:hover{
-    background-color:rgba(57, 233, 145, 0.822);
-}
-#submit input:active{
-    border-width: 5px;
-    border-style: solid;
-    border-color: white
-}
+
 #card_holder{
     min-height: 300px;
     display:flex;
@@ -169,5 +112,3 @@ nav div a{
 #div_1 :last-child,#div_2 :last-of-type,#div_3 :last-child,#div_4 :last-child{
     padding-left: 200px;
 }
-
-
