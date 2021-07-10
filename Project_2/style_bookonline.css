@@ -1,6 +1,12 @@
 html{
     background-image: linear-gradient(#FC5E55, #FA4083);
 }
+body{
+    background-image: url("Images/image-lion-background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center-50px;
+}
 
 img{
     border-radius: 15px;
