@@ -1,0 +1,39 @@
+/* Global veiw or desktop view */
+
+body{
+    background-color: darkcyan;
+    font-family: Roboto;
+}
+
+header{
+    min-height: 100px;
+    background-color: rgb(61, 57, 57);   
+}
+
+/* Tablet view */
+@media(max-width : 768px){
+    body{
+        background-color: gray;
+    }
+    
+    header{
+        min-height: 100px;
+        background-color: darkcyan;   
+    }
+
+}
+
+
+/* Mobile view */
+
+@media(max-width : 400px){
+    body{
+        background-color: darkolivegreen;
+    }
+    
+    header{
+        min-height: 100px;
+        background-color: navy;   
+    }
+
+}
