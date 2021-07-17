@@ -1,0 +1,63 @@
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    margin: 80px 550px 0px 550px;
+    padding-bottom: 20px;
+    border-bottom: rgb(59, 151, 187) solid;
+}
+
+#container{
+    /* background-color: skyblue; */
+    width : 700px;
+    min-height: 400px;
+    margin: 50px auto 0px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 3px 3px;
+}
+
+img{
+    width : 100px;
+    height : 100px;
+    border-radius: 200px;
+    object-fit: cover;
+    margin: 20px 300px 0px 300px;
+    text-align: center;
+    border-right:rgb(59, 151, 187) solid 5px;
+    border-top: rgb(59, 151, 187) solid 5px; 
+}
+
+#author{
+    margin-top :3px;
+}
+#occupation{
+    color: skyblue;
+}
+#review{
+    width:400px;
+    margin:20px 150px 20px 150px;
+}
+button{
+    background-color: white;
+    border : none;
+}
+
+#next,#prev {
+    width:20px;
+    height: 20px;
+    color: rgb(59, 151, 187);
+    font-size: 20px;
+}
+#random{
+    padding: 10px;
+    border-width: 1px;
+    border-color: rgb(59, 151, 187);
+    border-style: solid;
+    border-radius: 10px;
+}
+#random:hover{
+    background-color: rgb(59, 151, 187);
+}

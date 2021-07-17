@@ -78,6 +78,9 @@ nav{
 .cards p::first-line{
     font-weight: bold;
 }
+.cards:hover{
+    transform: scale(1.01);
+}
 
 /* Tablet view */
 @media(max-width : 768px){
