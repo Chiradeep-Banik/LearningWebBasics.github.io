@@ -1,0 +1,33 @@
+body{
+    background-color : rgba(4, 205, 231, 0.589);
+}
+#game_container{
+    width : 500px;
+    min-height : 500px;
+    background-color: rgba(0, 100, 0, 0.397);
+    text-align: center;
+    margin: 100px auto 100px auto;
+    color: rgba(5, 28, 48, 0.842);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 17, 0.541) 2px 2px 2px;
+}
+
+h1{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgba(12, 104, 110, 0.842);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    border-width: 1px;
+    box-shadow: none;
+}
+#hands_played{
+    margin-top: 100px;
+    font-size: 15px;
+}
