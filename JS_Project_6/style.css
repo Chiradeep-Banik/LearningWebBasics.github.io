@@ -1,16 +1,75 @@
 *{
     padding: 0px;
-    margin: 0px;
-    font-family: "Arial", sans-serif;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black
 }
-body::-webkit-scrollbar{
-    width:0.5rem;
+.container{
+    display: flex;
+    height:100vh;
+}
+.main{
+    padding-left: 50px;
+    background-color: white;
+    color: black;
+}
+.sidebar{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:45px;
+    height: 100%;
+    position: fixed;
+}
+.item.burger{
+    margin-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+.bars{
     background-color: black;
+    width: 25px;
+    height:4px;
+    margin : 2px 1px;
 }
-body::-webkit-scrollbar-track{
-    background-color: darkslateblue;
+
+.item.normal{
+    padding: 15px 5px;
+    border-bottom:1px solid black; 
+    width:100%;
+    text-align: center;
+    cursor: pointer;
 }
-body::-webkit-scrollbar-thumb{
-    background-color: rgba(22, 22, 22, 0.767);
+.item.normal span, .item.bottom span{
+    display: none;
+}
+.item.normal.first{
+    border-top:1px solid black; 
+}
+.item.normal:hover, .item.bottom:hover{
+    background-color: blueviolet;
+    transition: 0.7s;
+}
+.item.bottom{
+    margin-top: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    border-top:1px solid black;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
 }
 
