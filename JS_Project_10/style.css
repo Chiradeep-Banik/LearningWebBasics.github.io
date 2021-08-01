@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+html{
+    background-color: rgb(255, 208, 0);
+}
+.container{
+    width : 100rem;
+    min-height: 65.5rem;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+.main_header{
+    padding : 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.content{
+    padding: 2rem 3rem;
+    font-size: 3rem;
+}
+.slide_in{
+    background-color: teal;
+    transform: translateX(150%);
+    transition: all 0.5s;
+}
+.slide_in.scroll{
+    transform: translateX(0%);
+}
